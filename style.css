@@ -1,0 +1,116 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color:white;
+}
+body {
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 100vh;
+    background: url('http://3.bp.blogspot.com/-hf_7zoo9XQk/T7G5m22I_5I/AAAAAAAAWtA/UNH9MIc3K5Y/s1600/tumblr_m2nkyb613P1r91ozao1_500.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    width: 98%;
+    padding: 1px 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.menu-left {
+    display: flex;
+
+}
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+.boxInput {
+    height: 4vh;
+    background: #000;
+    display: flex;
+    align-items: center;
+    border: none;
+
+}
+
+.inputLupa {
+    background: #000;
+    width: 0;
+    display: flex;
+    outline: none ;
+    border: 1px;
+    
+}
+.menuSaida {
+    font-size: 0.8em;
+    position: absolute;
+    right: 0.5vw;
+    top: 10.5vh;
+    background-color:#000000db;
+    display: none;
+    flex-direction: column;
+    
+}
+
+.logout {
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    
+    
+
+
+}
+.gerenciar-perfis{
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid rgba(255, 255, 255, 0.678) 0.5px;
+    
+
+}
+.item {
+    padding: 1vw 2vw 1vw 2vw;
+}
+.itemlist {
+    font-size: 0.9em;
+    text-decoration: none;
+    padding: 1vw;
+}
+
+.logo {
+    width: 7vw;
+}
+
+.teste:hover > .menuSaida {
+    display: flex;
+}
+
+.fotoPerfil {
+    width: 3vw;
+}
+
+/* .fotoPerfil:hover .menuSaida {
+    display: flex;
+} */
+
+.fa-bell{
+  width: 2.5vw;
+  
+}
+.search {
+    width: 2vw;
+    margin: 1vw;
+}
+
+#corpo {
+    background-image: url(https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiC_56_19rlAhU5IrkGHRmLAWYQjRx6BAgBEAQ&url=http%3A%2F%2Fapaixonadosporgifs-liza.blogspot.com%2F2012%2F05%2Fgifs-do-filme-enrolados-rapunzel-disney.html&psig=AOvVaw26MgtzHdvDcQ3YfLevfJlN&ust=1573304850290985);
+}
